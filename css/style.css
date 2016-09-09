@@ -1,13 +1,28 @@
 body{
-
+    background-color: #ffffff;
 }
 .wrapper{
     margin: 0 auto;
     width: 1000px;
     height: 1310px;
-    /*background-color: #ffffff;*/
-    background-color: grey;
+    background-color: aliceblue;
+    color: green;
+}
+header{
+    margin-left: 40px;
+    padding-top: 18px;
+}
+.avtoriz{
+    width: 500px;
+    /*background-color: blue;*/
 }
 .telephone{
-
+    font-size: 18px;
+}
+.navigation{
+    display: inline-block;
+    list-style: none;
+}
+.navigation li{
+    float: left;
 }
